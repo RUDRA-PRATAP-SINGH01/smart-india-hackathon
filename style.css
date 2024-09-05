@@ -165,6 +165,14 @@ body {
     }
 }
 
+#page1>canvas{
+    max-height: 80vh;
+    max-width: 80vw;
+    position: relative;
+}
+
+
+
 .card {
     display: grid;
     grid-template-columns: 300px;
