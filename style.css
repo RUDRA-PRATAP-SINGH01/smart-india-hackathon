@@ -267,3 +267,21 @@ html, body {
         transform: translateX(0);
     }
 }
+
+.card{
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 250px 80px;
+    grid-template-areas: "image";
+    border-radius: 18px;
+    background: #1d1d1d;
+    color: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    font-family: roboto;
+    text-align: justify;
+    cursor: pointer;
+    margin: 30px;
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+
+}
